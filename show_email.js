@@ -10,3 +10,4 @@ $(document).on("click","#subscribepara :checkbox",function() {
   var self = $(this);
   toggleEmail(self);
 });
+// if checkbox is checked, display email input else use CSS display none
